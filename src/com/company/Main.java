@@ -25,6 +25,7 @@ public class Main {
         int nombre2 = Integer.parseInt(scanner.nextLine());
         int nombre3 = nombre1+nombre2;
         System.out.println("Le produit de vos 2 facteurs est : " + nombre3);
-
+	
+	System.out.println("Exo git");
     }
 }
