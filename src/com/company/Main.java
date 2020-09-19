@@ -15,5 +15,6 @@ public class Main {
         String age = scanner.nextLine();
         int ageToInt = Integer.parseInt(age);
         System.out.println("Vous avez " + ageToInt) ;
+        System.out.println("HOLA");
     }
 }
