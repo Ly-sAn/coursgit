@@ -21,6 +21,10 @@ public class Main {
         int divisieur2 = Integer.parseInt(scanner.nextLine());
         int division = diviseur1/divisieur2;
         System.out.println("La division de vos 2 nombres est : " + division);
+        int nombre1 = Integer.parseInt(scanner.nextLine());
+        int nombre2 = Integer.parseInt(scanner.nextLine());
+        int nombre3 = nombre1+nombre2;
+        System.out.println("Le produit de vos 2 facteurs est : " + nombre3);
 
     }
 }
