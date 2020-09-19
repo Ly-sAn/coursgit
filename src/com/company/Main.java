@@ -11,6 +11,11 @@ public class Main {
         int facteur2 = Integer.parseInt(scanner.nextLine());
         int produit = facteur1*facteur2;
         System.out.println("Le produit de vos 2 facteurs est : " + produit);
+        System.out.print( "Veuillir saisir 2 nombres : " );
+        int modulo1 = Integer.parseInt(scanner.nextLine());
+        int modulo2 = Integer.parseInt(scanner.nextLine());
+        int modulo3 = modulo1%modulo2;
+        System.out.println("Le reste de vos 2 nombres est : " + modulo3);
 
     }
 }
